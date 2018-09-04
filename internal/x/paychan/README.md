@@ -39,7 +39,7 @@ This will print out a channel, if it exists, and any submitted close requests.
 # TODOs
 
  - in code TODOs
- - Tidy up - method descriptions, heading comments, remove uneccessary comments, README/docs
+ - Tidy up - method descriptions, heading comments, remove unnecessary comments, README/docs
  - Find a better name for Queue - clarify distinction between int slice and abstract queue concept
  - write some sort of integration test
  	- possible bug in submitting same update repeatedly
@@ -51,7 +51,7 @@ This will print out a channel, if it exists, and any submitted close requests.
  	- can’t submit an update from an unitialised account
  	- pay without a --from returns confusing error
  - use custom errors instead of using sdk.ErrInternal
- - split off signatures from update as with txs/msgs - testing easier, code easier to use, doesn't store sigs unecessarily on chain
+ - split off signatures from update as with txs/msgs - testing easier, code easier to use, doesn't store sigs unnecessarily on chain
  - consider removing pubKey from UpdateSignature - instead let channel module access accountMapper
  - refactor queue into one object
  - remove printout during tests caused by mock app initialisation
