@@ -1,8 +1,8 @@
-# Unidrectional Payment Channels
+# Unidirectional Payment Channels
 
 This module implements simple but feature complete unidirectional payment channels. Channels can be opened by a sender and closed immediately by the receiver, or by the sender subject to a dispute period. There are no top-ups or partial withdrawals (yet). Channels support multiple currencies.
 
->Note: This module is still a bit rough around the edges. More feature planned. More test cases needed.
+>Note: This module is still a bit rough around the edges. More features planned. More test cases needed.
 
 # Usage
 
